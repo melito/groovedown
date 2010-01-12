@@ -7,8 +7,9 @@ end
 
 rubygem 'sinatra/base'
 rubygem "restclient" => 'rest-client'
-rubygem 'yajl' => 'yajl-ruby'
-require "yajl/json_gem"
+rubygem 'json'
+#rubygem 'yajl' => 'yajl-ruby'
+#require "yajl/json_gem"
 
 require 'models/result'
 require 'models/stream'
