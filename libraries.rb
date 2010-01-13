@@ -6,10 +6,8 @@ rescue LoadError
 end
 
 rubygem 'sinatra/base'
-rubygem "restclient" => 'rest-client'
+rubygem 'restclient' => 'rest-client'
 rubygem 'json'
-#rubygem 'yajl' => 'yajl-ruby'
-#require "yajl/json_gem"
 
 require 'models/result'
 require 'models/stream'
